@@ -10,5 +10,6 @@ class Student{
 	void calculateElgibility() {
 		int a = 20; //a is my local variable
 		System.out.println("abdul's marks are--"+a);
+		System.out.println("printing a new line");
 	}
 }
