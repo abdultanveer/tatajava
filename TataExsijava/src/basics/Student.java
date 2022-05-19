@@ -1,7 +1,7 @@
 package basics;
 
 //Student as a user defined data type
-class Student{
+public class Student{
 	String name; //partition -- instance variable
 	int age;
 	static String COLLEGE_NAME = "IIT"; //static variables -- created in class memory
@@ -20,5 +20,6 @@ class Student{
 		int a = 20; //a is my local variable
 		System.out.println("abdul's marks are--"+a);
 		System.out.println("printing a new line");
+		//Toast.makeText()
 	}
 }
